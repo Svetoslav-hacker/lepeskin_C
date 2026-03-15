@@ -42,3 +42,4 @@ gcc -std=c99 -Wall taskXX.c -o taskXX
 ```bash
 for f in task*.c; do gcc -std=c99 -Wall "$f" -o "${f%.c}"; done
 ```
+
